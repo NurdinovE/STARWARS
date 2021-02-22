@@ -1,0 +1,56 @@
+.App {
+    background: url("http://www.script-tutorials.com/demos/360/images/stars.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-family: 'Star Jedi', sans-serif;
+    min-height: 100vh;
+}
+
+.search-button {
+    font-family: 'Star Jedi', sans-serif;
+    background-color: #FFDE06;
+    color: #000;
+    border-radius: 5px;
+    border: 0;
+    height: 42px;
+    margin: 20px 0 20px 10px;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow-y: scroll;
+    width: calc(100% + 20px);
+    padding: 8px;
+}
+.me{
+    text-align: center;
+    border-top: 1px solid grey;
+    margin-top: 100px;
+}
+.me .container{
+    margin-top: 50px;
+}
+.me a{
+    text-decoration: none;
+    color: #FFDE06;
+    font-size: 23px;
+
+}
+.me a:hover{
+
+    color: orange;
+    font-size: 24px;
+    transition: 0.2s;
+}
+.me .inst{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}

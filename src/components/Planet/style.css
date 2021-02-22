@@ -1,0 +1,12 @@
+.planet{
+    margin: 20px auto 0;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+
+}
+.card__img{
+    width: 300px;
+    height: 340px;
+    margin: 20px auto 20px;
+}
